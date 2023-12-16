@@ -1,0 +1,13 @@
+.container {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+
+  }
+
+.label {
+    margin-left: auto;
+    font-size: 0.8em;
+    margin-right: 5px;
+}   

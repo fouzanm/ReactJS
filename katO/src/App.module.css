@@ -1,0 +1,101 @@
+
+
+.heading {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.page {
+  margin: 0;
+  margin-left: 0;
+  background-color: antiquewhite;
+}
+
+.image {
+  width: 100%;
+}
+
+.action_logo {
+  display: flex;
+}
+
+.action_logo > * {
+  margin-top: 2px;
+  flex-grow: 1;
+}
+
+.title {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.description {
+  margin: 0;
+  text-align: left;
+  margin-left: 10px;
+  
+}
+
+.location {
+  color: #8991A3;
+  font-size: 0.65em;
+}
+
+.objective {
+  color: #8991A3;
+  font-size: 0.65em;
+}
+
+.facility {
+  background-color: #ebf4fb;
+  color: #5b5b5b;
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 0.65em;
+  font-weight: 500;
+  display: flex;
+}
+
+.description_container {
+  flex: 75%;
+}
+
+.total_container {
+  flex: 25%;
+  color: black;
+  font-weight: bold;
+}
+
+.button_container {
+  display: flex;
+  position: relative;
+}
+
+.button_booking {
+  background-color: #2786f8;
+  color: white;
+  width: 100%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.label_seemore {
+  color: white;
+  position:absolute;
+  right: 0;
+  margin-right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.7em;
+
+}
